@@ -121,7 +121,7 @@ function draw() {
     }
     
     //changing gameState to END when the monkey is touching the obstacles or reaches a ceartain score
-    if(survivaltime === 5000){
+    if(survivaltime === 1000){
       //resetting the size of the monkey
       monkey.scale=0.1;
       
